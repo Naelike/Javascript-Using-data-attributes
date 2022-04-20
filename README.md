@@ -15,17 +15,15 @@ HTML5 ได้รับการออกแบบโดยคำนึงถ�
 ในการรับแอตทริบิวต์ข้อมูลผ่านออบเจ็กต์ชุดข้อมูล ให้รับคุณสมบัติตามส่วนของชื่อแอตทริบิวต์หลัง data- (โปรดทราบว่าขีดกลางจะถูกแปลงเป็น camelCase)
 
 ```
-<script type="text/javascript">
-  // querySelector ID tag
-  const articleGet = document.querySelector('#electricCars');
-  // get tag data
-  var getColumns = articleGet.dataset.columns;
-  console.log(getColumns);
-  var getIndexNumber = articleGet.dataset.indexNumber;
-  console.log(getIndexNumber);
-  var getParent = articleGet.dataset.parent;
-  console.log(getParent);
-</script>
+// querySelector ID tag
+const articleGet = document.querySelector('#electricCars');
+// get tag data
+var getColumns = articleGet.dataset.columns;
+console.log(getColumns);
+var getIndexNumber = articleGet.dataset.indexNumber;
+console.log(getIndexNumber);
+var getParent = articleGet.dataset.parent;
+console.log(getParent);
 ```
 
 # Developer : NaeLike เนไลก์
